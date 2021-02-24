@@ -1,11 +1,13 @@
 package com.algorithm.study.Basic01;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         // Code Up 기초 100제
         // https://codeup.kr/problemsetsol.php?psid=23
 
@@ -110,5 +112,93 @@ public class Main {
         //for (int idx = 0 ; idx < voca.length(); idx++) {
         //    System.out.println("\'" + voca.charAt((idx)) + "\'");
         //}
+
+        //23번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal = sc.nextInt();
+        //for(int idx = 10000; idx >= 1 ; idx = idx / 10){
+        //    int topVal = intVal / idx * idx;
+        //    System.out.println("[" + topVal + "]");
+        //   intVal = intVal - topVal;
+        //}
+
+        //24번 문제
+        //Scanner sc = new Scanner(System.in);
+        //String timeString = sc.nextLine();
+        //String minute = timeString.split(":")[1];
+        //System.out.println(Integer.parseInt(minute));
+
+        //25번 문제
+        //Scanner sc = new Scanner(System.in);
+        //String timeString = sc.nextLine();
+        //SimpleDateFormat inputFormat = new SimpleDateFormat("yyyy.mm.dd");
+        //SimpleDateFormat outputFormat = new SimpleDateFormat("dd-mm-yyyy");
+        //Date inputDate = inputFormat.parse(timeString);
+        //System.out.println(outputFormat.format(inputDate));
+
+        //26, 28번 문제
+        //Scanner sc = new Scanner(System.in);
+        //long longVal = sc.nextLong();
+        //System.out.println(longVal);
+
+        //27번 문제
+        //Scanner sc = new Scanner(System.in);
+        //double doubleVal = sc.nextDouble();
+        //System.out.println(String.format("%.11f",doubleVal));
+
+        //29번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int tenVal = sc.nextInt();
+        //System.out.println(String.format("%o",tenVal));
+
+        //29번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int tenVal = sc.nextInt();
+        //System.out.println(String.format("%x",tenVal));
+
+        //30번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int tenVal = sc.nextInt();
+        //System.out.println(String.format("%X",tenVal));
+
+        //31번 문제
+        //Scanner sc = new Scanner(System.in);
+        //String eightVal = sc.nextLine();
+        //System.out.println(Integer.parseInt(eightVal,8));
+
+        //32번 문제
+        //Scanner sc = new Scanner(System.in);
+        //String hexVal = sc.nextLine();
+        //int defaultVal = Integer.parseInt(hexVal,16);
+        //System.out.println(Integer.toOctalString(defaultVal));
+
+        //33번 문제
+        //Scanner sc = new Scanner(System.in);
+        //char charVal = sc.nextLine().charAt(0);
+        //int asciVal = charVal;
+        //System.out.println(asciVal);
+
+        //34번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int asciVal = sc.nextInt();
+        //char charVal = (char)asciVal;
+        //System.out.println(charVal);
+
+        //35, 36번 문제
+        //Scanner sc = new Scanner(System.in);
+        //long firstVal = sc.nextLong();
+        //long secondVal = sc.nextLong();
+        //System.out.println(firstVal +secondVal );
+
+        //37번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal = sc.nextInt();
+        //System.out.println(intVal * -1);
+
+        //38번 문제
+        //Scanner sc = new Scanner(System.in);
+        //char charVal = sc.nextLine().charAt(0);
+        //char nextChar = (char)((int)charVal + 1);
+        //System.out.println(nextChar);
     }
 }
