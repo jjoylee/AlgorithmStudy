@@ -2,9 +2,7 @@ package com.algorithm.study.Basic01;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws ParseException {
@@ -200,5 +198,213 @@ public class Main {
         //char charVal = sc.nextLine().charAt(0);
         //char nextChar = (char)((int)charVal + 1);
         //System.out.println(nextChar);
+
+        //39번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal1 = sc.nextInt();
+        //int intVal2 = sc.nextInt();
+        //System.out.println(intVal1 / intVal2);
+
+        //40번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal1 = sc.nextInt();
+        //int intVal2 = sc.nextInt();
+        //System.out.println(intVal1 % intVal2);
+
+        //41번 문제
+        //Scanner sc = new Scanner(System.in);
+        //long longVal = sc.nextLong();
+        //System.out.println(longVal + 1);
+
+        //42번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal1 = sc.nextInt();
+        //int intVal2 = sc.nextInt();
+        //System.out.println(intVal1 + intVal2);
+        //System.out.println(intVal1 - intVal2);
+        //System.out.println(intVal1 * intVal2);
+        //System.out.println(intVal1 / intVal2);
+        //System.out.println(intVal1 % intVal2);
+        //System.out.println(String.format("%.2f", (double)intVal1 / (double)intVal2));
+
+        //43번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        int intVal3 = sc.nextInt();
+        long sum = intVal1 + intVal2 + intVal3;
+        System.out.println(sum);
+        System.out.println(String.format("%.1f", (double)sum / 3));
+         */
+
+        //44번 문제 
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        System.out.println(intVal<<1);
+         */
+        
+        //45번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1<<intVal2);
+         */
+
+        //46번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 > intVal2 ? 1 : 0);
+         */
+
+        //47번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 == intVal2 ? 1 : 0);
+         */
+
+        //48번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 <= intVal2 ? 1 : 0);
+         */
+
+        //49번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 != intVal2 ? 1 : 0);
+         */
+
+        //50번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        System.out.println((intVal == 1)? 0 : 1);
+         */
+
+        //51번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println((intVal1 == 1 && intVal2 == 1)? 1 : 0);
+         */
+        
+        //52번 문제
+         /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println((intVal1 == 1 || intVal2 == 1)? 1 : 0);
+          */
+
+        //53번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println((intVal1 == 1  ^ intVal2 == 1)? 1 : 0);
+         */
+
+        //54번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal1 = sc.nextInt();
+        //int intVal2 = sc.nextInt();
+        //System.out.println((intVal1 == 1  ^ intVal2 == 1)? 0 : 1);
+
+        //55번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println((intVal1 == 0 && intVal2 == 0)? 1 : 0);
+         */
+
+        //56번 문제
+        //Scanner sc = new Scanner(System.in);
+        //int intVal = sc.nextInt();
+        //System.out.println(~intVal);
+
+        //57번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1&intVal2);
+         */
+
+        //58번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 | intVal2);
+         */
+
+        //59번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 ^ intVal2);
+         */
+
+        //60번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println((intVal1 > intVal2) ? intVal1 : intVal2);
+         */
+
+        //61번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        int intVal3 = sc.nextInt();
+        System.out.println((intVal1 > intVal2) ? (intVal2 > intVal3? intVal3 : intVal2) :((intVal1 > intVal3? intVal3 : intVal1)));
+        */
+
+        //62번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        List<Integer> list = new ArrayList<>();
+        list.add(sc.nextInt());
+        list.add(sc.nextInt());
+        list.add(sc.nextInt());
+        for(int i = 0 ; i < 3 ; i++){
+            if(list.get(i) % 2 == 0)  System.out.println(list.get(i));
+        }
+         */
+
+        //63번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        int intVal3 = sc.nextInt();
+        System.out.println((intVal1 % 2 == 0) ? "even" : "odd");
+        System.out.println((intVal2 % 2 == 0) ? "even" : "odd");
+        System.out.println((intVal3 % 2 == 0) ? "even" : "odd");
+         */
+
+        //64번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        System.out.println((intVal >= 0) ? "plus" : "minus");
+        System.out.println((intVal % 2 == 0) ? "even" : "odd");
+         */
     }
 }
