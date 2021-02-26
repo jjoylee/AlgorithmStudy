@@ -406,5 +406,188 @@ public class Main {
         System.out.println((intVal >= 0) ? "plus" : "minus");
         System.out.println((intVal % 2 == 0) ? "even" : "odd");
          */
+
+        //65번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int score = sc.nextInt();
+        String grade = "";
+        if(100 >= score && score >= 90) grade = "A";
+        else if(89 >= score && score >= 70 ) grade = "B";
+        else if(69 >= score && score >= 40 ) grade = "C";
+        else grade = "D";
+        System.out.println(grade);
+         */
+
+        //66번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        String grade = sc.nextLine();
+        String printVal = "";
+        switch (grade){
+            case "A" :
+                printVal = "best!!!";
+                break;
+            case "B" :
+                printVal = "good!!";
+                break;
+            case "C" :
+                printVal = "run!";
+                break;
+            case "D" :
+                printVal = "slowly~";
+                break;
+            default :
+                printVal = "what?";
+                break;
+        }
+        System.out.println(printVal);
+         */
+
+        //67번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int month = sc.nextInt();
+        String monthString = "";
+        switch (month){
+            case 12: case 1: case 2 :
+                monthString = "winter";
+                break;
+            case 3: case 4: case 5 :
+                monthString = "spring";
+                break;
+            case 6: case 7: case 8 :
+                monthString = "summer";
+                break;
+            default :
+                monthString = "fall";
+                break;
+        }
+        System.out.println(monthString);
+         */
+
+        //68, 70번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        while(intVal != 0){
+            System.out.println(intVal);
+            intVal = sc.nextInt();
+        }
+         */
+
+        //69번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int recordNum = sc.nextInt();
+        while(recordNum != 0){
+            int record = sc.nextInt();
+            System.out.println(record);
+            recordNum--;
+        }
+         */
+
+        //71번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int recordNum = sc.nextInt();
+        while(recordNum != 0){
+            System.out.println(recordNum);
+            recordNum--;
+        }
+         */
+
+        //72번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int recordNum = sc.nextInt();
+        while(recordNum != 0){
+            recordNum--;
+            System.out.println(recordNum);
+        }
+         */
+
+        //73번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int asciiVal = sc.nextLine().charAt(0);
+        int firstVal = 'a';
+        while(firstVal <= asciiVal){
+            char charVal = (char)firstVal;
+            System.out.println(charVal);
+            ++firstVal;
+        }
+         */
+
+        //74번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        for(int idx = 0; idx <= intVal ; idx++){
+            System.out.println(idx);
+        }
+         */
+
+        //75번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        if(intVal % 2 == 1) intVal = intVal - 1;
+        int sumVal = 0;
+        for(int idx = 0; idx <= intVal ; idx = idx + 2){
+            sumVal += idx;
+        }
+        System.out.println(sumVal);
+         */
+
+        //76번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        char charVal = sc.next().charAt(0);
+        while(charVal != 'q'){
+            System.out.println(charVal);
+            charVal = sc.next().charAt(0);
+        }
+        System.out.println(charVal);
+         */
+
+        //77번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        int sumVal = 0;
+        for(int idx = 1; idx < intVal; idx++){
+            sumVal = sumVal + idx;
+            if(sumVal >= intVal) {
+                System.out.println(idx);
+                break;
+            }
+        }
+         */
+
+        //78번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int dice1 = sc.nextInt();
+        int dice2 = sc.nextInt();
+        for(int idx1 = 1; idx1 <= dice1; idx1++){
+            for(int idx2 = 1; idx2 <= dice2 ; idx2++){
+                System.out.println(idx1 + " " + idx2);
+            }
+        }
+         */
+
+        //79번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        String hexString = sc.nextLine();
+        int intVal = Integer.valueOf(hexString,16);
+        for(int idx = 1; idx <= 15; idx++){
+            System.out.println(
+                    Integer.toHexString(intVal).toUpperCase(Locale.ROOT)
+                    + "*" + Integer.toHexString(idx).toUpperCase(Locale.ROOT)
+                    + "=" + Integer.toHexString(idx * intVal).toUpperCase(Locale.ROOT));
+        }
+         */
     }
 }
