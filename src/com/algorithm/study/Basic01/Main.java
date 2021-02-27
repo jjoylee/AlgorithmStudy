@@ -1,11 +1,12 @@
 package com.algorithm.study.Basic01;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws IOException {
         // Code Up 기초 100제
         // https://codeup.kr/problemsetsol.php?psid=23
 
@@ -588,6 +589,97 @@ public class Main {
                     + "*" + Integer.toHexString(idx).toUpperCase(Locale.ROOT)
                     + "=" + Integer.toHexString(idx * intVal).toUpperCase(Locale.ROOT));
         }
+         */
+
+        //80번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        for(int idx = 1; idx <= intVal; idx++){
+            String printTxt = (idx %3 == 0)? "X" : String.valueOf(idx);
+            System.out.print((printTxt + " "));
+        }
+         */
+
+        //81번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int rVal = sc.nextInt();
+        int gVal = sc.nextInt();
+        int bVal = sc.nextInt();
+
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
+        for(int idx1 = 0; idx1 < rVal; idx1++){
+            for(int idx2 = 0 ; idx2 < gVal ; idx2++){
+                String strVal ="";
+                for(int idx3 = 0 ; idx3 < bVal; idx3++){
+                    strVal += idx1 + " " + idx2 + " " + idx3+"\n";
+                }
+                bf.write(strVal);
+                bf.flush();
+            }
+        }
+        System.out.println(rVal * gVal * bVal);
+         */
+
+        //82번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        long h = sc.nextLong();
+        long b = sc.nextLong();
+        long c = sc.nextLong();
+        long s = sc.nextLong();
+        double mbVal = (h*b*c*s) / (double)8 / (double)1024 / (double)1024;
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
+        bf.write(String.format("%.1f",mbVal) + " MB");
+        bf.flush();
+         */
+
+        //83번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        long w = sc.nextLong();
+        long h = sc.nextLong();
+        long b = sc.nextLong();
+        double mbVal = (h*b*w) / (double)8 / (double)1024 / (double)1024;
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
+        bf.write(String.format("%.2f",mbVal) + " MB");
+        bf.flush();
+         */
+
+        //84번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal = sc.nextInt();
+        int sum = 0;
+        for(int idx = 1; idx <= intVal; idx++){
+            sum += idx;
+            if(sum >= intVal) break;
+        }
+        System.out.println(sum);
+         */
+
+        //85번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int d = sc.nextInt();
+        int n = sc.nextInt();
+        System.out.println(a + d * (n-1));
+         */
+
+        //86번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int m = sc.nextInt();
+        int d = sc.nextInt();
+        int n = sc.nextInt();
+        long sum = 0;
+        for(int idx =0 ; idx < n-1 ; idx++){
+            sum += (long)(d * Math.pow(m,idx));
+        }
+        System.out.println((long)(a* Math.pow(m,n-1)) + sum);
          */
     }
 }
