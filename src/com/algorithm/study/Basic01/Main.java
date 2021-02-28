@@ -150,74 +150,74 @@ public class Main {
         //int tenVal = sc.nextInt();
         //System.out.println(String.format("%o",tenVal));
 
-        //29번 문제
+        //30번 문제
         //Scanner sc = new Scanner(System.in);
         //int tenVal = sc.nextInt();
         //System.out.println(String.format("%x",tenVal));
 
-        //30번 문제
+        //31번 문제
         //Scanner sc = new Scanner(System.in);
         //int tenVal = sc.nextInt();
         //System.out.println(String.format("%X",tenVal));
 
-        //31번 문제
+        //32번 문제
         //Scanner sc = new Scanner(System.in);
         //String eightVal = sc.nextLine();
         //System.out.println(Integer.parseInt(eightVal,8));
 
-        //32번 문제
+        //33번 문제
         //Scanner sc = new Scanner(System.in);
         //String hexVal = sc.nextLine();
         //int defaultVal = Integer.parseInt(hexVal,16);
         //System.out.println(Integer.toOctalString(defaultVal));
 
-        //33번 문제
+        //34번 문제
         //Scanner sc = new Scanner(System.in);
         //char charVal = sc.nextLine().charAt(0);
         //int asciVal = charVal;
         //System.out.println(asciVal);
 
-        //34번 문제
+        //35번 문제
         //Scanner sc = new Scanner(System.in);
         //int asciVal = sc.nextInt();
         //char charVal = (char)asciVal;
         //System.out.println(charVal);
 
-        //35, 36번 문제
+        //36, 37번 문제
         //Scanner sc = new Scanner(System.in);
         //long firstVal = sc.nextLong();
         //long secondVal = sc.nextLong();
         //System.out.println(firstVal +secondVal );
 
-        //37번 문제
+        //38번 문제
         //Scanner sc = new Scanner(System.in);
         //int intVal = sc.nextInt();
         //System.out.println(intVal * -1);
 
-        //38번 문제
+        //39번 문제
         //Scanner sc = new Scanner(System.in);
         //char charVal = sc.nextLine().charAt(0);
         //char nextChar = (char)((int)charVal + 1);
         //System.out.println(nextChar);
 
-        //39번 문제
+        //40번 문제
         //Scanner sc = new Scanner(System.in);
         //int intVal1 = sc.nextInt();
         //int intVal2 = sc.nextInt();
         //System.out.println(intVal1 / intVal2);
 
-        //40번 문제
+        //41번 문제
         //Scanner sc = new Scanner(System.in);
         //int intVal1 = sc.nextInt();
         //int intVal2 = sc.nextInt();
         //System.out.println(intVal1 % intVal2);
 
-        //41번 문제
+        //42번 문제
         //Scanner sc = new Scanner(System.in);
         //long longVal = sc.nextLong();
         //System.out.println(longVal + 1);
 
-        //42번 문제
+        //43번 문제
         //Scanner sc = new Scanner(System.in);
         //int intVal1 = sc.nextInt();
         //int intVal2 = sc.nextInt();
@@ -228,7 +228,7 @@ public class Main {
         //System.out.println(intVal1 % intVal2);
         //System.out.println(String.format("%.2f", (double)intVal1 / (double)intVal2));
 
-        //43번 문제
+        //44번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -239,19 +239,11 @@ public class Main {
         System.out.println(String.format("%.1f", (double)sum / 3));
          */
 
-        //44번 문제 
+        //45번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
         System.out.println(intVal<<1);
-         */
-        
-        //45번 문제
-        /*
-        Scanner sc = new Scanner(System.in);
-        int intVal1 = sc.nextInt();
-        int intVal2 = sc.nextInt();
-        System.out.println(intVal1<<intVal2);
          */
 
         //46번 문제
@@ -259,7 +251,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
         int intVal2 = sc.nextInt();
-        System.out.println(intVal1 > intVal2 ? 1 : 0);
+        System.out.println(intVal1<<intVal2);
          */
 
         //47번 문제
@@ -267,7 +259,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
         int intVal2 = sc.nextInt();
-        System.out.println(intVal1 == intVal2 ? 1 : 0);
+        System.out.println(intVal1 > intVal2 ? 1 : 0);
          */
 
         //48번 문제
@@ -275,7 +267,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
         int intVal2 = sc.nextInt();
-        System.out.println(intVal1 <= intVal2 ? 1 : 0);
+        System.out.println(intVal1 == intVal2 ? 1 : 0);
          */
 
         //49번 문제
@@ -283,25 +275,33 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
         int intVal2 = sc.nextInt();
-        System.out.println(intVal1 != intVal2 ? 1 : 0);
+        System.out.println(intVal1 <= intVal2 ? 1 : 0);
          */
 
         //50번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int intVal1 = sc.nextInt();
+        int intVal2 = sc.nextInt();
+        System.out.println(intVal1 != intVal2 ? 1 : 0);
+         */
+
+        //51번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
         System.out.println((intVal == 1)? 0 : 1);
          */
 
-        //51번 문제
+        //52번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
         int intVal2 = sc.nextInt();
         System.out.println((intVal1 == 1 && intVal2 == 1)? 1 : 0);
          */
-        
-        //52번 문제
+
+        //53번 문제
          /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -309,7 +309,7 @@ public class Main {
         System.out.println((intVal1 == 1 || intVal2 == 1)? 1 : 0);
           */
 
-        //53번 문제
+        //54번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -317,13 +317,13 @@ public class Main {
         System.out.println((intVal1 == 1  ^ intVal2 == 1)? 1 : 0);
          */
 
-        //54번 문제
+        //55번 문제
         //Scanner sc = new Scanner(System.in);
         //int intVal1 = sc.nextInt();
         //int intVal2 = sc.nextInt();
         //System.out.println((intVal1 == 1  ^ intVal2 == 1)? 0 : 1);
 
-        //55번 문제
+        //56번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -331,12 +331,12 @@ public class Main {
         System.out.println((intVal1 == 0 && intVal2 == 0)? 1 : 0);
          */
 
-        //56번 문제
+        //57번 문제
         //Scanner sc = new Scanner(System.in);
         //int intVal = sc.nextInt();
         //System.out.println(~intVal);
 
-        //57번 문제
+        //58번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -344,7 +344,7 @@ public class Main {
         System.out.println(intVal1&intVal2);
          */
 
-        //58번 문제
+        //59번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -352,7 +352,7 @@ public class Main {
         System.out.println(intVal1 | intVal2);
          */
 
-        //59번 문제
+        //60번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -360,7 +360,7 @@ public class Main {
         System.out.println(intVal1 ^ intVal2);
          */
 
-        //60번 문제
+        //61번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -368,7 +368,7 @@ public class Main {
         System.out.println((intVal1 > intVal2) ? intVal1 : intVal2);
          */
 
-        //61번 문제
+        //62번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -377,7 +377,7 @@ public class Main {
         System.out.println((intVal1 > intVal2) ? (intVal2 > intVal3? intVal3 : intVal2) :((intVal1 > intVal3? intVal3 : intVal1)));
         */
 
-        //62번 문제
+        //63번 문제
         /*
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList<>();
@@ -389,7 +389,7 @@ public class Main {
         }
          */
 
-        //63번 문제
+        //64번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal1 = sc.nextInt();
@@ -400,7 +400,7 @@ public class Main {
         System.out.println((intVal3 % 2 == 0) ? "even" : "odd");
          */
 
-        //64번 문제
+        //65번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -408,7 +408,7 @@ public class Main {
         System.out.println((intVal % 2 == 0) ? "even" : "odd");
          */
 
-        //65번 문제
+        //66번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
@@ -420,7 +420,7 @@ public class Main {
         System.out.println(grade);
          */
 
-        //66번 문제
+        //67번 문제
         /*
         Scanner sc = new Scanner(System.in);
         String grade = sc.nextLine();
@@ -445,7 +445,7 @@ public class Main {
         System.out.println(printVal);
          */
 
-        //67번 문제
+        //68번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
@@ -467,7 +467,7 @@ public class Main {
         System.out.println(monthString);
          */
 
-        //68, 70번 문제
+        //69, 71번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -477,7 +477,7 @@ public class Main {
         }
          */
 
-        //69번 문제
+        //70번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int recordNum = sc.nextInt();
@@ -488,27 +488,27 @@ public class Main {
         }
          */
 
-        //71번 문제
-        /*
-        Scanner sc = new Scanner(System.in);
-        int recordNum = sc.nextInt();
-        while(recordNum != 0){
-            System.out.println(recordNum);
-            recordNum--;
-        }
-         */
-
         //72번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int recordNum = sc.nextInt();
         while(recordNum != 0){
+            System.out.println(recordNum);
+            recordNum--;
+        }
+         */
+
+        //73번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int recordNum = sc.nextInt();
+        while(recordNum != 0){
             recordNum--;
             System.out.println(recordNum);
         }
          */
 
-        //73번 문제
+        //74번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int asciiVal = sc.nextLine().charAt(0);
@@ -520,7 +520,7 @@ public class Main {
         }
          */
 
-        //74번 문제
+        //75번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -529,7 +529,7 @@ public class Main {
         }
          */
 
-        //75번 문제
+        //76번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -541,7 +541,7 @@ public class Main {
         System.out.println(sumVal);
          */
 
-        //76번 문제
+        //77번 문제
         /*
         Scanner sc = new Scanner(System.in);
         char charVal = sc.next().charAt(0);
@@ -552,7 +552,7 @@ public class Main {
         System.out.println(charVal);
          */
 
-        //77번 문제
+        //78번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -566,7 +566,7 @@ public class Main {
         }
          */
 
-        //78번 문제
+        //79번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int dice1 = sc.nextInt();
@@ -578,7 +578,7 @@ public class Main {
         }
          */
 
-        //79번 문제
+        //80번 문제
         /*
         Scanner sc = new Scanner(System.in);
         String hexString = sc.nextLine();
@@ -591,7 +591,7 @@ public class Main {
         }
          */
 
-        //80번 문제
+        //81번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -601,7 +601,7 @@ public class Main {
         }
          */
 
-        //81번 문제
+        //82번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int rVal = sc.nextInt();
@@ -622,7 +622,7 @@ public class Main {
         System.out.println(rVal * gVal * bVal);
          */
 
-        //82번 문제
+        //83번 문제
         /*
         Scanner sc = new Scanner(System.in);
         long h = sc.nextLong();
@@ -635,7 +635,7 @@ public class Main {
         bf.flush();
          */
 
-        //83번 문제
+        //84번 문제
         /*
         Scanner sc = new Scanner(System.in);
         long w = sc.nextLong();
@@ -647,7 +647,7 @@ public class Main {
         bf.flush();
          */
 
-        //84번 문제
+        //85번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int intVal = sc.nextInt();
@@ -659,7 +659,7 @@ public class Main {
         System.out.println(sum);
          */
 
-        //85번 문제
+        //86번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -668,7 +668,7 @@ public class Main {
         System.out.println(a + d * (n-1));
          */
 
-        //86번 문제
+        //87번 문제
         /*
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -680,6 +680,181 @@ public class Main {
             sum += (long)(d * Math.pow(m,idx));
         }
         System.out.println((long)(a* Math.pow(m,n-1)) + sum);
+         */
+
+        //87번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long m = sc.nextLong();
+        long d = sc.nextLong();
+        long n = sc.nextLong();
+        for(int idx = 1 ; idx < n ; idx++){
+            a = a*m + d;
+        }
+        System.out.println(a);
+         */
+
+        //88번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int day = 1;
+        while(day % a != 0 || day % b != 0 || day % c != 0){
+            day++;
+        }
+        System.out.println(day);
+         */
+
+        //89번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] callArray = new int[23];
+        for(int idx = 0; idx < n ; idx++){
+            int called = sc.nextInt();
+            ++callArray[called - 1];
+        }
+        for(int idx = 0; idx < 23 ; idx++){
+            System.out.print(callArray[idx] + " ");
+        }
+         */
+
+        //90번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] callArray = new int[n];
+        for(int idx = 0; idx < n ; idx++){
+            callArray[idx] = sc.nextInt();
+        }
+        for(int idx = n-1; idx >= 0 ; idx--){
+            System.out.print(callArray[idx] + " ");
+        }
+         */
+
+        //91번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int min = 23;
+        for(int idx = 0; idx < n ; idx++){
+            int inputVal = sc.nextInt();
+            if(inputVal < min) min = inputVal;
+        }
+        System.out.print(min);
+         */
+
+        // 92번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[][] board = new int[19][19];
+        for(int idx = 0; idx < n ; idx++){
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            board[x-1][y-1] = 1;
+        }
+
+        for(int xVal = 0; xVal < 19 ; xVal++){
+            for(int yVal = 0; yVal < 19 ; yVal++){
+                System.out.print(board[xVal][yVal] + " ");
+            }
+            System.out.println();
+        }
+         */
+
+        // 93번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int[][] board = new int[19][19];
+        for(int xVal = 0; xVal < 19 ; xVal++){
+            for(int yVal = 0; yVal < 19 ; yVal++){
+                board[xVal][yVal] = sc.nextInt();
+            }
+        }
+
+        int n = sc.nextInt();
+
+        for(int idx = 0; idx < n ; idx++){
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            for(int xVal = 0; xVal < 19 ; xVal++){
+                board[xVal][y-1]  = (board[xVal][y-1] == 1) ? 0 : 1;
+            }
+            for(int yVal = 0; yVal < 19 ; yVal++){
+                board[x-1][yVal]  = (board[x-1][yVal] == 1) ? 0 : 1;
+            }
+        }
+
+        for(int xVal = 0; xVal < 19 ; xVal++){
+            for(int yVal = 0; yVal < 19 ; yVal++){
+                System.out.print(board[xVal][yVal] + " ");
+            }
+            System.out.println();
+        }
+         */
+
+        // 94번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int[][] board = new int[x][y];
+        int n = sc.nextInt();
+        for(int idx = 0; idx < n; idx++){
+            int l = sc.nextInt();
+            int d = sc.nextInt();
+            int startX = sc.nextInt();
+            int startY = sc.nextInt();
+            for(int len = 0 ; len < l ; len++){
+                if(d == 0) board[startX - 1][startY - 1 + len] = 1;
+                else  board[startX - 1 + len][startY-1]  = 1;
+            }
+        }
+
+        for(int xVal = 0; xVal < x ; xVal++){
+            for(int yVal = 0; yVal < y ; yVal++){
+                System.out.print(board[xVal][yVal] + " ");
+            }
+            System.out.println();
+        }
+         */
+
+        // 95번 문제
+        /*
+        Scanner sc = new Scanner(System.in);
+        int[][] board = new int[10][10];
+
+        for(int xVal = 0; xVal < 10 ; xVal++){
+            for(int yVal = 0; yVal < 10 ; yVal++){
+                board[xVal][yVal] = sc.nextInt();
+            }
+        }
+
+        int x = 1;
+        int y = 1;
+        while(x != 9 && y != 9) {
+            if(board[x][y] == 2){
+                board[x][y] = 9;
+                break;
+            }
+            board[x][y] = 9;
+            if(board[x][y+1] == 1) {
+                x = x + 1;
+            } else{
+                y = y + 1;
+            }
+        }
+
+        for(int xVal = 0; xVal < 10 ; xVal++){
+            for(int yVal = 0; yVal < 10 ; yVal++){
+                System.out.print(board[xVal][yVal] + " ");
+            }
+            System.out.println();
+        }
          */
     }
 }
